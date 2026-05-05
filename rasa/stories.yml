@@ -1,1 +1,38 @@
+version: "3.1"
 
+stories:
+
+- story: ai basics
+  steps:
+  - intent: ai_basics
+  - action: utter_ai_basics
+
+- story: ai bias
+  steps:
+  - intent: ai_bias
+  - action: utter_ai_bias
+
+- story: ai risks
+  steps:
+  - intent: ai_risks
+  - action: utter_ai_risks
+
+- story: ai ethics
+  steps:
+  - intent: ai_ethics
+  - action: utter_ai_ethics
+
+- story: ai regulations
+  steps:
+  - intent: ai_regulations
+  - action: utter_ai_regulations
+
+- story: responsible ai
+  steps:
+  - intent: responsible_ai
+  - action: utter_responsible_ai
+
+- story: fallback
+  steps:
+  - intent: fallback
+  - action: utter_fallback
