@@ -1,1 +1,51 @@
+version: "3.1"
 
+nlu:
+
+- intent: ai_basics
+  examples: |
+    - what is ai
+    - explain artificial intelligence
+    - ai meaning
+    - basics of ai
+
+- intent: ai_bias
+  examples: |
+    - what is ai bias
+    - bias in ai systems
+    - examples of ai bias
+    - how ai becomes biased
+
+- intent: ai_risks
+  examples: |
+    - risks of ai
+    - dangers of ai
+    - problems with ai
+    - negative effects of ai
+
+- intent: ai_ethics
+  examples: |
+    - what is ai ethics
+    - ethical ai
+    - principles of ai ethics
+    - why ethics in ai
+
+- intent: ai_regulations
+  examples: |
+    - ai regulations
+    - laws related to ai
+    - ai rules
+    - examples of ai laws
+
+- intent: responsible_ai
+  examples: |
+    - responsible ai
+    - safe ai usage
+    - trustworthy ai
+    - fair ai systems
+
+- intent: fallback
+  examples: |
+    - cricket score
+    - gdp of india
+    - weather today
